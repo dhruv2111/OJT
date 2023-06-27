@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb on-off</title>
+</head>
+<body>
+    <img src="/photo/off bulb.jpg" alt="" id="bulb">
+</body>
+<script>
+    let a = document.getElementById("bulb");
+    a.addEventListener("mouseout", () => {
+        a.src = "/photo/off bulb.jpg";
+    })
+    a.addEventListener("mouseover", () => {
+        a.src = "/photo/on bulb.jpeg";
+    })
+</script>
+</html>
